@@ -1,0 +1,14 @@
+.inverted {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.golden {
+    background-color: yellow;
+}
+
+.inverted, .golden {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
