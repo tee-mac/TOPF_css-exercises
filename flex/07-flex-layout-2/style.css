@@ -10,12 +10,13 @@ body {
 a {
   text-decoration: none;
   color: white;
-  font-size: x-large;
+  font-size: 24px;
 
 }
 
 ul {
-  margin-left: -1.5em;
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -28,12 +29,12 @@ li {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-size: xx-large;
+  font-size: 32px;
   font-weight: 900;
 }
 
 .title {
-  margin: .5em;
+  margin: 16px;
 }
 
 .container {
@@ -55,13 +56,13 @@ li {
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .card-cont {
   display: flex;
   flex-wrap: wrap;
-  padding: 48px;
-  gap: 30px;
+  padding: 32px;
 }
 
 .card {
@@ -70,4 +71,5 @@ li {
   border-radius: 4px;
   width: 300px;
   padding: 15px 16px;
+  margin: 16px;
 }
