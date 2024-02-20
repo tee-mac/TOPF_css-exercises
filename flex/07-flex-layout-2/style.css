@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  justify-content: space-between;
 }
 
 a {
@@ -40,6 +40,8 @@ li {
 .container {
   display: flex;
   margin-right: 4px;
+  justify-content: stretch;
+  flex-grow: 10;
 }
 
 .footer {
@@ -72,4 +74,5 @@ li {
   width: 300px;
   padding: 15px 16px;
   margin: 16px;
+  max-height: 90vh;
 }
