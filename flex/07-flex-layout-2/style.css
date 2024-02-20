@@ -40,7 +40,6 @@ li {
 .container {
   display: flex;
   margin-right: 4px;
-  justify-content: stretch;
   flex-grow: 10;
 }
 
